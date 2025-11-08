@@ -11,7 +11,7 @@ A web application that helps UCF students and community members track, rate, and
 - **Advanced Filtering**: Search and filter by cuisine, price range, distance, and more
 - **Local Storage**: All your data is stored locally in your browser - no account required
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **UCF-Themed**: Features UCF's official colors (Black and Gold)
+- **Appetizing Design**: Warm, food-inspired color palette designed to stimulate appetite
 
 ## Live Demo
 
@@ -137,8 +137,8 @@ Potential features for future versions:
 ## Credits
 
 - Restaurant data compiled from public sources
-- UCF color scheme: Black (#000000) and Gold (#FFC904)
-- Red accent (#C8102E) for enhanced visibility
+- Color scheme: Warm Tomato Red (#E74C3C), Fresh Orange (#FF8C42), and Fresh Green (#27AE60)
+- Appetizing color palette designed to enhance the dining discovery experience
 
 ## License
 
