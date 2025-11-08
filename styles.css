@@ -6,16 +6,16 @@
 }
 
 :root {
-    --primary-color: #C8102E;
-    --secondary-color: #FFC904;
-    --accent-color: #000000;
-    --text-color: #333333;
-    --bg-color: #F5F5F5;
+    --primary-color: #E74C3C;
+    --secondary-color: #FF8C42;
+    --accent-color: #27AE60;
+    --text-color: #2C3E50;
+    --bg-color: #FFFBF5;
     --card-bg: #FFFFFF;
-    --border-color: #E0E0E0;
-    --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
-    --border-radius: 8px;
+    --border-color: #E8DDD3;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.12);
+    --border-radius: 12px;
     --transition: all 0.3s ease;
 }
 
@@ -40,7 +40,7 @@ body {
 header {
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #A00D26 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
     border-radius: var(--border-radius);
     margin-bottom: 30px;
@@ -146,13 +146,13 @@ header h1 {
 }
 
 .btn-secondary:hover {
-    background: #333333;
+    background: #1E8449;
     transform: translateY(-2px);
 }
 
 .btn-danger {
     padding: 10px 20px;
-    background: #dc3545;
+    background: #C0392B;
     color: white;
     border: none;
     border-radius: var(--border-radius);
@@ -163,7 +163,7 @@ header h1 {
 }
 
 .btn-danger:hover {
-    background: #c82333;
+    background: #A93226;
 }
 
 .btn-primary {
@@ -180,7 +180,7 @@ header h1 {
 }
 
 .btn-primary:hover {
-    background: #A00D26;
+    background: #C0392B;
 }
 
 /* Stats */
@@ -253,7 +253,7 @@ header h1 {
 }
 
 .restaurant-card.visited {
-    border-left: 4px solid #28a745;
+    border-left: 4px solid var(--accent-color);
 }
 
 .restaurant-card.to-visit {
@@ -337,13 +337,13 @@ header h1 {
 }
 
 .status-badge.visited {
-    background: #d4edda;
-    color: #155724;
+    background: #D5F4E6;
+    color: #1E8449;
 }
 
 .status-badge.to-visit {
-    background: #fff3cd;
-    color: #856404;
+    background: #FFE8CC;
+    color: #C65D00;
 }
 
 .user-rating {
@@ -566,12 +566,12 @@ header h1 {
 
 .recommendation-reason {
     padding: 10px;
-    background: #e7f3ff;
-    border-left: 4px solid #0066cc;
+    background: #FFF4E6;
+    border-left: 4px solid var(--secondary-color);
     border-radius: 4px;
     margin-top: 10px;
     font-size: 0.85rem;
-    color: #004085;
+    color: #8B5A00;
 }
 
 /* No Results */
