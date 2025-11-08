@@ -1,0 +1,904 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Lazy Moon Pizza",
+      "cuisine": "Pizza",
+      "address": "3572 Alafaya Trail, Orlando, FL",
+      "distance": 0.5,
+      "priceRange": "$",
+      "category": ["Pizza", "Casual Dining", "Late Night"]
+    },
+    {
+      "id": 2,
+      "name": "Huey Magoo's Chicken Tenders",
+      "cuisine": "American",
+      "address": "12261 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Chicken"]
+    },
+    {
+      "id": 3,
+      "name": "Gringos Locos",
+      "cuisine": "Mexican",
+      "address": "12237 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Mexican", "Casual Dining", "Tacos"]
+    },
+    {
+      "id": 4,
+      "name": "Panda Express",
+      "cuisine": "Chinese",
+      "address": "12251 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Chinese", "Fast Food", "Asian"]
+    },
+    {
+      "id": 5,
+      "name": "Chipotle Mexican Grill",
+      "cuisine": "Mexican",
+      "address": "12209 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Healthy Options"]
+    },
+    {
+      "id": 6,
+      "name": "Tijuana Flats",
+      "cuisine": "Mexican",
+      "address": "11583 University Blvd, Orlando, FL",
+      "distance": 1.2,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Tex-Mex"]
+    },
+    {
+      "id": 7,
+      "name": "Chick-fil-A",
+      "cuisine": "American",
+      "address": "12225 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Chicken"]
+    },
+    {
+      "id": 8,
+      "name": "Subway",
+      "cuisine": "American",
+      "address": "12215 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Sandwiches", "Healthy Options"]
+    },
+    {
+      "id": 9,
+      "name": "Wingstop",
+      "cuisine": "American",
+      "address": "12253 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Chicken", "Wings"]
+    },
+    {
+      "id": 10,
+      "name": "Five Guys",
+      "cuisine": "American",
+      "address": "12245 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Burgers"]
+    },
+    {
+      "id": 11,
+      "name": "Jimmy John's",
+      "cuisine": "American",
+      "address": "12213 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Sandwiches"]
+    },
+    {
+      "id": 12,
+      "name": "Starbucks",
+      "cuisine": "Coffee & Cafe",
+      "address": "4250 Alafaya Trail, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$$",
+      "category": ["Coffee", "Cafe", "Breakfast"]
+    },
+    {
+      "id": 13,
+      "name": "Smoothie King",
+      "cuisine": "Juice & Smoothies",
+      "address": "12255 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Smoothies", "Healthy Options", "Quick Service"]
+    },
+    {
+      "id": 14,
+      "name": "Qdoba Mexican Eats",
+      "cuisine": "Mexican",
+      "address": "12243 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Burritos"]
+    },
+    {
+      "id": 15,
+      "name": "Marco's Pizza",
+      "cuisine": "Pizza",
+      "address": "3651 Alafaya Trail, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Pizza", "Italian", "Delivery"]
+    },
+    {
+      "id": 16,
+      "name": "Domino's Pizza",
+      "cuisine": "Pizza",
+      "address": "12235 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Pizza", "Fast Food", "Delivery"]
+    },
+    {
+      "id": 17,
+      "name": "Burger King",
+      "cuisine": "American",
+      "address": "11551 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Burgers"]
+    },
+    {
+      "id": 18,
+      "name": "McDonald's",
+      "cuisine": "American",
+      "address": "11961 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Burgers"]
+    },
+    {
+      "id": 19,
+      "name": "Pollo Tropical",
+      "cuisine": "Caribbean",
+      "address": "12233 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Caribbean", "Fast Casual", "Latin"]
+    },
+    {
+      "id": 20,
+      "name": "Chuy's",
+      "cuisine": "Mexican",
+      "address": "11680 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["Mexican", "Casual Dining", "Tex-Mex"]
+    },
+    {
+      "id": 21,
+      "name": "BJ's Restaurant & Brewhouse",
+      "cuisine": "American",
+      "address": "11702 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Brewery"]
+    },
+    {
+      "id": 22,
+      "name": "Moe's Southwest Grill",
+      "cuisine": "Mexican",
+      "address": "12249 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Burritos"]
+    },
+    {
+      "id": 23,
+      "name": "Panera Bread",
+      "cuisine": "American",
+      "address": "12265 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Bakery", "Healthy Options"]
+    },
+    {
+      "id": 24,
+      "name": "Tropical Smoothie Cafe",
+      "cuisine": "Juice & Smoothies",
+      "address": "12259 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Smoothies", "Healthy Options", "Cafe"]
+    },
+    {
+      "id": 25,
+      "name": "Jersey Mike's Subs",
+      "cuisine": "American",
+      "address": "12247 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Sandwiches"]
+    },
+    {
+      "id": 26,
+      "name": "Buffalo Wild Wings",
+      "cuisine": "American",
+      "address": "11951 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Wings", "Sports Bar"]
+    },
+    {
+      "id": 27,
+      "name": "Pei Wei Asian Diner",
+      "cuisine": "Asian",
+      "address": "12263 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$$",
+      "category": ["Asian", "Fast Casual", "Pan-Asian"]
+    },
+    {
+      "id": 28,
+      "name": "Firehouse Subs",
+      "cuisine": "American",
+      "address": "12257 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Sandwiches"]
+    },
+    {
+      "id": 29,
+      "name": "Taco Bell",
+      "cuisine": "Mexican",
+      "address": "11539 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Food", "Tex-Mex", "Late Night"]
+    },
+    {
+      "id": 30,
+      "name": "Zaxby's",
+      "cuisine": "American",
+      "address": "11945 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Chicken"]
+    },
+    {
+      "id": 31,
+      "name": "Checkers",
+      "cuisine": "American",
+      "address": "11547 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Burgers"]
+    },
+    {
+      "id": 32,
+      "name": "Wendy's",
+      "cuisine": "American",
+      "address": "11935 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Burgers"]
+    },
+    {
+      "id": 33,
+      "name": "Noodles & Company",
+      "cuisine": "American",
+      "address": "12261 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Pasta", "Asian"]
+    },
+    {
+      "id": 34,
+      "name": "Jason's Deli",
+      "cuisine": "American",
+      "address": "12267 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Sandwiches", "Healthy Options"]
+    },
+    {
+      "id": 35,
+      "name": "Mellow Mushroom",
+      "cuisine": "Pizza",
+      "address": "11680 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["Pizza", "Casual Dining", "Craft Beer"]
+    },
+    {
+      "id": 36,
+      "name": "Jimmy Hula's",
+      "cuisine": "Mexican",
+      "address": "4116 N Alafaya Trail, Orlando, FL",
+      "distance": 1.5,
+      "priceRange": "$$",
+      "category": ["Mexican", "Casual Dining", "Beach Theme", "Tacos"]
+    },
+    {
+      "id": 37,
+      "name": "Sushi Lola's",
+      "cuisine": "Japanese",
+      "address": "11684 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["Japanese", "Sushi", "Asian"]
+    },
+    {
+      "id": 38,
+      "name": "Habaneros Mexican Grill",
+      "cuisine": "Mexican",
+      "address": "11725 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Authentic"]
+    },
+    {
+      "id": 39,
+      "name": "PDQ",
+      "cuisine": "American",
+      "address": "12269 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Chicken"]
+    },
+    {
+      "id": 40,
+      "name": "Blaze Pizza",
+      "cuisine": "Pizza",
+      "address": "12271 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["Pizza", "Fast Casual", "Build Your Own"]
+    },
+    {
+      "id": 41,
+      "name": "Shake Shack",
+      "cuisine": "American",
+      "address": "11700 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Burgers"]
+    },
+    {
+      "id": 42,
+      "name": "The Habit Burger Grill",
+      "cuisine": "American",
+      "address": "11708 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Burgers"]
+    },
+    {
+      "id": 43,
+      "name": "Bento Asian Kitchen + Sushi",
+      "cuisine": "Asian",
+      "address": "12273 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$$",
+      "category": ["Asian", "Sushi", "Japanese", "Fast Casual"]
+    },
+    {
+      "id": 44,
+      "name": "Miller's Ale House",
+      "cuisine": "American",
+      "address": "11493 University Blvd, Orlando, FL",
+      "distance": 1.4,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Sports Bar"]
+    },
+    {
+      "id": 45,
+      "name": "Toojay's Deli",
+      "cuisine": "American",
+      "address": "11676 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$",
+      "category": ["American", "Deli", "Sandwiches"]
+    },
+    {
+      "id": 46,
+      "name": "Mediterranean Deli",
+      "cuisine": "Mediterranean",
+      "address": "12283 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Mediterranean", "Fast Casual", "Healthy Options"]
+    },
+    {
+      "id": 47,
+      "name": "Gyu-Kaku Japanese BBQ",
+      "cuisine": "Japanese",
+      "address": "11688 E Colonial Dr, Orlando, FL",
+      "distance": 2.1,
+      "priceRange": "$$$",
+      "category": ["Japanese", "BBQ", "Fine Dining"]
+    },
+    {
+      "id": 48,
+      "name": "Bonefish Grill",
+      "cuisine": "Seafood",
+      "address": "11900 E Colonial Dr, Orlando, FL",
+      "distance": 2.3,
+      "priceRange": "$$$",
+      "category": ["Seafood", "Fine Dining", "American"]
+    },
+    {
+      "id": 49,
+      "name": "Garlic Knot Pizzeria",
+      "cuisine": "Pizza",
+      "address": "11710 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$",
+      "category": ["Pizza", "Italian", "Casual Dining"]
+    },
+    {
+      "id": 50,
+      "name": "Flippers Pizzeria",
+      "cuisine": "Pizza",
+      "address": "3580 Alafaya Trail, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Pizza", "Italian", "Casual Dining"]
+    },
+    {
+      "id": 51,
+      "name": "Duffy's Sports Grill",
+      "cuisine": "American",
+      "address": "11960 E Colonial Dr, Orlando, FL",
+      "distance": 2.4,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Sports Bar"]
+    },
+    {
+      "id": 52,
+      "name": "Arepas El Cacao",
+      "cuisine": "Venezuelan",
+      "address": "12295 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Venezuelan", "Latin", "Fast Casual"]
+    },
+    {
+      "id": 53,
+      "name": "Kyoto Sushi & Grill",
+      "cuisine": "Japanese",
+      "address": "11730 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$$",
+      "category": ["Japanese", "Sushi", "Asian"]
+    },
+    {
+      "id": 54,
+      "name": "Outback Steakhouse",
+      "cuisine": "Steakhouse",
+      "address": "11940 E Colonial Dr, Orlando, FL",
+      "distance": 2.4,
+      "priceRange": "$$",
+      "category": ["Steakhouse", "Casual Dining", "American"]
+    },
+    {
+      "id": 55,
+      "name": "LongHorn Steakhouse",
+      "cuisine": "Steakhouse",
+      "address": "11980 E Colonial Dr, Orlando, FL",
+      "distance": 2.5,
+      "priceRange": "$$",
+      "category": ["Steakhouse", "Casual Dining", "American"]
+    },
+    {
+      "id": 56,
+      "name": "Red Robin Gourmet Burgers",
+      "cuisine": "American",
+      "address": "11920 E Colonial Dr, Orlando, FL",
+      "distance": 2.3,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Burgers"]
+    },
+    {
+      "id": 57,
+      "name": "Krispy Kreme",
+      "cuisine": "Bakery",
+      "address": "11485 University Blvd, Orlando, FL",
+      "distance": 1.4,
+      "priceRange": "$",
+      "category": ["Bakery", "Donuts", "Dessert"]
+    },
+    {
+      "id": 58,
+      "name": "Dunkin'",
+      "cuisine": "Coffee & Cafe",
+      "address": "11925 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Coffee", "Donuts", "Breakfast"]
+    },
+    {
+      "id": 59,
+      "name": "Toasted Mango Cafe",
+      "cuisine": "Cafe",
+      "address": "12301 University Blvd, Orlando, FL",
+      "distance": 1.0,
+      "priceRange": "$$",
+      "category": ["Cafe", "Healthy Options", "Breakfast"]
+    },
+    {
+      "id": 60,
+      "name": "Wawa",
+      "cuisine": "Convenience",
+      "address": "12203 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Convenience", "Sandwiches", "Quick Service"]
+    },
+    {
+      "id": 61,
+      "name": "7-Eleven",
+      "cuisine": "Convenience",
+      "address": "12207 University Blvd, Orlando, FL",
+      "distance": 0.6,
+      "priceRange": "$",
+      "category": ["Convenience", "Quick Service", "Late Night"]
+    },
+    {
+      "id": 62,
+      "name": "Einstein Bros. Bagels",
+      "cuisine": "Bakery",
+      "address": "12241 University Blvd, Orlando, FL",
+      "distance": 0.7,
+      "priceRange": "$",
+      "category": ["Bakery", "Breakfast", "Coffee"]
+    },
+    {
+      "id": 63,
+      "name": "Mod Pizza",
+      "cuisine": "Pizza",
+      "address": "12275 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["Pizza", "Fast Casual", "Build Your Own"]
+    },
+    {
+      "id": 64,
+      "name": "Crispers",
+      "cuisine": "American",
+      "address": "12277 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Salads", "Healthy Options"]
+    },
+    {
+      "id": 65,
+      "name": "Which Wich Superior Sandwiches",
+      "cuisine": "American",
+      "address": "12279 University Blvd, Orlando, FL",
+      "distance": 0.8,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Sandwiches"]
+    },
+    {
+      "id": 66,
+      "name": "Papa John's Pizza",
+      "cuisine": "Pizza",
+      "address": "12281 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Pizza", "Fast Food", "Delivery"]
+    },
+    {
+      "id": 67,
+      "name": "Pizza Hut",
+      "cuisine": "Pizza",
+      "address": "11535 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["Pizza", "Fast Food", "Delivery"]
+    },
+    {
+      "id": 68,
+      "name": "Arby's",
+      "cuisine": "American",
+      "address": "11527 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Sandwiches"]
+    },
+    {
+      "id": 69,
+      "name": "Popeyes Louisiana Kitchen",
+      "cuisine": "American",
+      "address": "11929 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Chicken", "Cajun"]
+    },
+    {
+      "id": 70,
+      "name": "KFC",
+      "cuisine": "American",
+      "address": "11543 University Blvd, Orlando, FL",
+      "distance": 1.3,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Chicken"]
+    },
+    {
+      "id": 71,
+      "name": "Dairy Queen",
+      "cuisine": "American",
+      "address": "12285 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Ice Cream", "Dessert"]
+    },
+    {
+      "id": 72,
+      "name": "Baskin-Robbins",
+      "cuisine": "Dessert",
+      "address": "12287 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Dessert", "Ice Cream"]
+    },
+    {
+      "id": 73,
+      "name": "Cold Stone Creamery",
+      "cuisine": "Dessert",
+      "address": "12289 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$$",
+      "category": ["Dessert", "Ice Cream"]
+    },
+    {
+      "id": 74,
+      "name": "Ben & Jerry's",
+      "cuisine": "Dessert",
+      "address": "11750 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$$",
+      "category": ["Dessert", "Ice Cream"]
+    },
+    {
+      "id": 75,
+      "name": "Insomnia Cookies",
+      "cuisine": "Dessert",
+      "address": "12291 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["Dessert", "Bakery", "Late Night"]
+    },
+    {
+      "id": 76,
+      "name": "BurgerFi",
+      "cuisine": "American",
+      "address": "11720 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$$",
+      "category": ["American", "Fast Casual", "Burgers"]
+    },
+    {
+      "id": 77,
+      "name": "Chipotle Tex-Mex Grill",
+      "cuisine": "Mexican",
+      "address": "11760 E Colonial Dr, Orlando, FL",
+      "distance": 2.2,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual"]
+    },
+    {
+      "id": 78,
+      "name": "Wing Zone",
+      "cuisine": "American",
+      "address": "12293 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Casual", "Wings", "Chicken"]
+    },
+    {
+      "id": 79,
+      "name": "Lee's Famous Recipe Chicken",
+      "cuisine": "American",
+      "address": "11933 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Fast Food", "Chicken"]
+    },
+    {
+      "id": 80,
+      "name": "Tijuana Flats Burrito Company",
+      "cuisine": "Mexican",
+      "address": "11583 University Blvd, Orlando, FL",
+      "distance": 1.2,
+      "priceRange": "$",
+      "category": ["Mexican", "Fast Casual", "Tex-Mex"]
+    },
+    {
+      "id": 81,
+      "name": "Denny's",
+      "cuisine": "American",
+      "address": "11950 E Colonial Dr, Orlando, FL",
+      "distance": 2.4,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Breakfast", "Late Night"]
+    },
+    {
+      "id": 82,
+      "name": "IHOP",
+      "cuisine": "American",
+      "address": "11970 E Colonial Dr, Orlando, FL",
+      "distance": 2.5,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Breakfast", "Pancakes"]
+    },
+    {
+      "id": 83,
+      "name": "Waffle House",
+      "cuisine": "American",
+      "address": "11941 University Blvd, Orlando, FL",
+      "distance": 0.9,
+      "priceRange": "$",
+      "category": ["American", "Casual Dining", "Breakfast", "Late Night"]
+    },
+    {
+      "id": 84,
+      "name": "First Watch",
+      "cuisine": "American",
+      "address": "11780 E Colonial Dr, Orlando, FL",
+      "distance": 2.3,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Breakfast", "Healthy Options"]
+    },
+    {
+      "id": 85,
+      "name": "Keke's Breakfast Cafe",
+      "cuisine": "American",
+      "address": "11990 E Colonial Dr, Orlando, FL",
+      "distance": 2.5,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Breakfast"]
+    },
+    {
+      "id": 86,
+      "name": "Applebee's",
+      "cuisine": "American",
+      "address": "12000 E Colonial Dr, Orlando, FL",
+      "distance": 2.6,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining"]
+    },
+    {
+      "id": 87,
+      "name": "Olive Garden",
+      "cuisine": "Italian",
+      "address": "12010 E Colonial Dr, Orlando, FL",
+      "distance": 2.6,
+      "priceRange": "$$",
+      "category": ["Italian", "Casual Dining", "Pasta"]
+    },
+    {
+      "id": 88,
+      "name": "Red Lobster",
+      "cuisine": "Seafood",
+      "address": "12020 E Colonial Dr, Orlando, FL",
+      "distance": 2.7,
+      "priceRange": "$$",
+      "category": ["Seafood", "Casual Dining", "American"]
+    },
+    {
+      "id": 89,
+      "name": "Chili's Grill & Bar",
+      "cuisine": "American",
+      "address": "12030 E Colonial Dr, Orlando, FL",
+      "distance": 2.7,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining", "Tex-Mex"]
+    },
+    {
+      "id": 90,
+      "name": "TGI Friday's",
+      "cuisine": "American",
+      "address": "12040 E Colonial Dr, Orlando, FL",
+      "distance": 2.8,
+      "priceRange": "$$",
+      "category": ["American", "Casual Dining"]
+    },
+    {
+      "id": 91,
+      "name": "Texas Roadhouse",
+      "cuisine": "Steakhouse",
+      "address": "12050 E Colonial Dr, Orlando, FL",
+      "distance": 2.8,
+      "priceRange": "$$",
+      "category": ["Steakhouse", "Casual Dining", "American"]
+    },
+    {
+      "id": 92,
+      "name": "The Cheesecake Factory",
+      "cuisine": "American",
+      "address": "11800 E Colonial Dr, Orlando, FL",
+      "distance": 2.3,
+      "priceRange": "$$$",
+      "category": ["American", "Casual Dining", "Dessert"]
+    },
+    {
+      "id": 93,
+      "name": "P.F. Chang's",
+      "cuisine": "Chinese",
+      "address": "11820 E Colonial Dr, Orlando, FL",
+      "distance": 2.4,
+      "priceRange": "$$",
+      "category": ["Chinese", "Asian", "Casual Dining"]
+    },
+    {
+      "id": 94,
+      "name": "Benihana",
+      "cuisine": "Japanese",
+      "address": "11840 E Colonial Dr, Orlando, FL",
+      "distance": 2.4,
+      "priceRange": "$$$",
+      "category": ["Japanese", "Hibachi", "Fine Dining"]
+    },
+    {
+      "id": 95,
+      "name": "Maggiano's Little Italy",
+      "cuisine": "Italian",
+      "address": "11860 E Colonial Dr, Orlando, FL",
+      "distance": 2.5,
+      "priceRange": "$$$",
+      "category": ["Italian", "Casual Dining", "Pasta"]
+    },
+    {
+      "id": 96,
+      "name": "Seasons 52",
+      "cuisine": "American",
+      "address": "11880 E Colonial Dr, Orlando, FL",
+      "distance": 2.5,
+      "priceRange": "$$$",
+      "category": ["American", "Fine Dining", "Healthy Options"]
+    },
+    {
+      "id": 97,
+      "name": "Ruth's Chris Steak House",
+      "cuisine": "Steakhouse",
+      "address": "11900 E Colonial Dr, Orlando, FL",
+      "distance": 2.6,
+      "priceRange": "$$$",
+      "category": ["Steakhouse", "Fine Dining", "American"]
+    },
+    {
+      "id": 98,
+      "name": "The Capital Grille",
+      "cuisine": "Steakhouse",
+      "address": "11920 E Colonial Dr, Orlando, FL",
+      "distance": 2.6,
+      "priceRange": "$$$",
+      "category": ["Steakhouse", "Fine Dining", "American"]
+    },
+    {
+      "id": 99,
+      "name": "Morton's The Steakhouse",
+      "cuisine": "Steakhouse",
+      "address": "11940 E Colonial Dr, Orlando, FL",
+      "distance": 2.7,
+      "priceRange": "$$$",
+      "category": ["Steakhouse", "Fine Dining", "American"]
+    },
+    {
+      "id": 100,
+      "name": "Fogo de Chao Brazilian Steakhouse",
+      "cuisine": "Brazilian",
+      "address": "11960 E Colonial Dr, Orlando, FL",
+      "distance": 2.7,
+      "priceRange": "$$$",
+      "category": ["Brazilian", "Steakhouse", "Fine Dining"]
+    }
+  ]
+}
